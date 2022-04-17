@@ -1,0 +1,75 @@
+.Survey {
+  box-sizing: border-box;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Survey-bar {
+  width: 80vw;
+  height: 3vh;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  position: fixed;
+  top: 5vh;
+  left: 15vw;
+}
+
+.Survey-progress {
+  width: 6vw;
+  height: 10vh;
+  top: 2vh;
+  transform: translate(0, -40%);
+  z-index: 1;
+  animation: float 3s ease-in-out infinite;
+}
+
+.Survey-progress-bg {
+  height: 3vh;
+  background-color: #7535FE;
+  border-radius: 2rem 0 0 2rem;
+  /* 왼쪽 위부터 시계방향으로 돌면서 border-radius 적용한다 => 왼쪽면만 둥글게 */
+  position: fixed;
+  top: 5vh;
+  left: 15vw;
+}
+
+.Survey-button-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 5vw;
+}
+
+.Survey-tooltip {
+  position: fixed;
+  width: auto;
+  color: black;
+  font-weight: normal;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  padding: 5px 10px;
+  transform: translate(-50%, -150%);
+}
+
+.Survey-button {
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  border-style: none;
+  font-size: 2vw;
+}
+
+.Survey-button:hover {
+  cursor: pointer;
+}
+
+.Survey-button path {
+  fill: black;
+}
+
+.Survey-button:hover path {
+  fill: purple;
+}

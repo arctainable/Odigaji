@@ -1,0 +1,23 @@
+.Rating {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: #ff9148;
+  font-size: 21px;
+  border-radius: 1rem;
+  padding: 0px 10px;
+}
+
+.Rating:hover {
+  cursor: pointer;
+}
+
+.Rating-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rating-star-icon path {
+  fill: #7535FE;
+}

@@ -1,0 +1,39 @@
+.SearchContent {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.SearchContent-header {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.SearchContent-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vw;
+  row-gap: 5px;
+}
+
+.SearchContent-footer {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.SearchContent-footer-item {
+  display: flex;
+  column-gap: 5px;
+}
+
+.SearchContent-footer-icon:hover {
+  cursor: pointer;
+}
+
+.SearchContent-footer-icon path {
+  fill: black;
+}

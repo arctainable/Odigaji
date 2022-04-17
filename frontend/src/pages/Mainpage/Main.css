@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.Main {
+  box-sizing: border-box;
+  width: 90%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.Main::-webkit-scrollbar {
+  display: none;
+}
+
+.Divider {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+}

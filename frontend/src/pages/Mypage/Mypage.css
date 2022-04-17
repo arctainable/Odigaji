@@ -1,0 +1,364 @@
+
+
+.My{
+  background-color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+  width: 90%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.TitleContainer{  
+
+ 
+  height: 12%;
+  /* background: #74ebd5; */
+  /* background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);  */
+  display: flex;
+  align-items: flex-end;
+  padding: 1%;
+ 
+}
+
+.userContainer{
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px;
+  height: auto;
+  margin: 1%;
+  padding: 0.5%;
+}
+.userContainer .userbutton{
+  display: flex;
+  
+}
+.userContainer .userName{
+  display: grid;
+  flex-grow: 1;
+  font-size : 15pt;
+  padding-left: 2%;
+}
+
+ .userNick{
+ 
+  font-size : 10pt;
+  color: #afb3b1;
+}
+.userPoint{
+  display: grid;
+  color: #afb3b1;
+  font-size : 10pt;
+}
+
+.ActivityContainer{
+  text-align: center;
+  margin: 1%;
+  border-radius: 10px;
+  background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));
+  display: flex;  
+  align-items: center;
+  height: auto;
+  padding: 0.5%;
+
+}
+
+.ActivityContainer .item{
+  flex-grow: 1
+}
+
+.ActivityContainer .number{
+  font-size: 12pt;
+  font-weight: 600;
+  color:rgb(255, 255, 255)
+}
+
+.ActivityContainer .item > div:nth-child(2){
+  font-size: 12pt;
+
+  color:rgb(255, 255, 255)
+}
+
+
+.VisitedCityContainer{
+  margin: 1%;
+  background-color: rgba(255, 255, 255, 0.5);
+
+  border-radius: 10px;
+
+}
+
+
+.VisitedCityContainer .title{
+  font-size: 15pt;
+  font-weight: bold;
+  padding: 2%;
+  padding-top: 1% ;
+  
+}
+
+.VisitedCardWrap{
+
+}
+.VisitedCityContainer .status{
+
+  display: grid;
+	grid-template-columns: 15% 15% 15% 15% 15% 15%;
+	grid-template-rows: 15% 15%;
+  place-content: center;
+  
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+ 
+  /* width: 100%; */
+
+}
+.CardItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.VisitedCityContainer .item{
+  
+  margin: 5%;
+  border-radius: 10%;
+  background-color: white;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.VisitedCityContainer .item:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.Imagenumber{
+  padding: 10%;
+  object-fit: fill;
+  width: 80%;
+  height: 100px;
+}
+
+.InnerItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: (0,auto,0,auto);
+}
+.VisitedCityContainer .text{
+  font-size: 15px;
+  font-weight: normal;
+  color: #c2c2c2;
+  text-align: center;
+
+ 
+}
+.VisitedNoneItems{
+
+  text-align: center;
+  align-content: center;
+  padding :5%;
+}
+
+
+.ReviewListContainer{  
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 1%;
+  border-radius: 10px;
+  
+}
+.ReviewWrap{
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.ReviewListContainer .Reviewtitle{
+  font-size: 15pt;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+  
+  
+}
+.ReviewListContainer .ListTitle{  
+  display: flex;
+  align-items: center;
+  padding: 1.5%;
+  color: white;
+  font-size: 15px;
+  
+  background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));
+  text-decoration: none;  
+  height: 12px;
+ border-radius: 10px;
+  box-sizing: border-box;
+}
+.ReviewListContainer .headRegion{  
+  padding-left: 25px;
+  flex-grow: 1;
+  margin-right: 14px;
+}
+.ReviewListContainer .headtitle{
+  flex-grow: 1;
+  font-size: 15px;
+  position: relative;
+ 
+}
+.ReviewListContainer .headtime{
+  padding-right: 25px;
+  margin-left: auto;
+}
+
+.ReviewListContainer .item{  
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  color: black;
+  text-decoration: none;  
+  height: 56px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #ddd;
+  margin: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.ReviewListContainer .item:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.ReviewListContainer .region{  
+  flex-grow: 1;
+  margin-right: 14px;
+
+  padding-left: 25px;
+
+}
+  
+
+.ReviewListContainer .textTitle{
+
+  flex-grow: 1;
+  font-size: 16px;
+  position: relative;
+  
+}
+.ReviewListContainer .time{
+  margin-left: auto;
+  padding-right: 25px;
+  
+}
+
+
+
+
+
+
+.profileBox{
+
+  width: 60%;
+  height: 60%; 
+  border-radius: 70%;
+  
+ 
+}
+ .profileBox .profileImg{
+  
+  width: 120px;
+  height:120px;
+  object-fit: cover;
+  border-radius: 1000px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 1px 1px rgba(0,0,0,0.22);
+
+ 
+  transform: translate(80%, 70%);
+
+  border-style: none;
+
+} 
+
+.EditinfoButton1 {background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));}
+.EditinfoButton1 {
+
+
+  
+  display: grid;
+  margin-left: 3%;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 12%;
+  border-style: none;
+
+ 
+}
+
+  
+.EditinfoButton2 {background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));}
+.EditinfoButton2 {
+  display: grid;
+  margin-left: 0.5%;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 12%;
+  border-style: none;
+
+ 
+}
+
+.EditinfoButton:hover {
+ 
+  color: #fff;
+  text-decoration: none;
+
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 1px 1px rgba(0,0,0,0.22);
+
+}
+  
+
+
+
+
+.star-ratings {
+  padding-bottom:10% ;
+  display: flex;
+  color: #eeeeee; 
+  position: relative;
+  unicode-bidi: bidi-override;
+  width: max-content;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2b2a29; 
+
+
+
+}
+.starLine{
+
+}
+.star-ratings-fill {
+ 
+  color: gold;
+  padding: 0;
+  display: inline;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /* -webkit-text-fill-color: gold; */
+}
+ 
+a {
+  text-decoration-line: none;
+}
+
+.region, .headRegion, .textTitle, .headtitle{
+  width:45%;
+  float:left;
+}
+.time, .headtime {
+  width:10%;
+  float:right;
+}

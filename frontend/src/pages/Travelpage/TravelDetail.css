@@ -1,0 +1,93 @@
+
+
+.TravelDetailContainer{
+  display: grid;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100vh;
+  overflow-y: auto;
+}
+.ContentTravelBox{
+  padding: 50px; 
+  /* background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%); */
+}
+.DetailImage{
+  width: 400px;
+  height: 300px;
+  
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.TravelDetailInfoBox{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.TravelDetailInfoBox2{
+  margin-top: 20px;
+  /* border: 1px solid; */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.TravelDetailTitleName{
+  margin-top: 10px;
+ 
+  
+}
+.DetailTitleWrap{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.DetailTitle{
+  font-size: 23px;
+}
+.TravelDetaiLocationTitle{
+  padding: 10px;
+  
+}
+#map {
+  width:auto;
+  height:500px;
+  margin: (0,auto);
+  padding: 20px;
+  border-radius: 5px;
+}
+.TravelDetailWrap{
+  display: flex;
+  justify-content: space-around;
+}
+.TravelDetailMapWrap{
+  margin: 23px;
+  border: 10px solid;
+  border-radius: 6px;
+  border-color:  rgb(117,53,254,0.7)
+}
+
+.travel-info-table .tbody {
+  border: 1px solid;
+  
+}
+.TableContent{
+  /* margin-left: 250px; */
+  align-self: center;
+}
+.TravelBackButton{
+  
+  background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));
+  color: white;
+  border-radius: 10px ;
+  border: none;
+}
+.MapTitle{
+  font-size: 23px;
+  margin-left: 20px;
+}

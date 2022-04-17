@@ -1,0 +1,224 @@
+/* .post-del-btn{
+
+  float: right;
+  margin: 3cm;
+}
+
+.comment{
+
+  height: 400px;
+  width: 85%;
+  
+  margin: 30%;
+}
+
+.comment-del-btn{
+
+  size: 1em;
+  text-align: center;
+  font-size: 10px;
+  width: 50px;
+}
+
+.post{
+ 
+  margin: 30px;
+  padding: 10px;
+  margin-left: 50px;
+  overflow-y: auto;
+  width: 95%;
+}
+
+#button-addon2{
+  margin-left: 10px;
+}
+
+.comment-btn{
+  background-color: aquamarine;
+}
+
+.list-btn{
+  background-color: purple;
+  color: rgb(255, 255, 255);
+}
+
+.comment-table{
+  height: 100px;
+
+}
+
+.comment-content{
+  width: 60%;
+}
+
+.post th{
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+}
+
+#menu{
+  float: right;
+}
+
+a:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+} */
+.ReviewPost{
+  display: grid;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100vh;
+  overflow-y: auto;
+}
+.PostWrap{
+  padding: 50px; 
+}
+.ReviewInfoBox1{
+  /* border: 1px solid; */
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+}
+.reviewTitle{
+ 
+ padding-bottom: 10px; 
+  font-size: 30px;
+}
+.ReviewInfoBox2{
+  /* border: 1px solid; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.ReviewInfoBox3{
+  /* border: 1px solid; */
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.ReviewTitleHead{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ReviewInfoBox4{
+  /* border: 1px solid; */
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(159, 159, 159, 0.4);
+}
+.ReviewInfoBox5{
+  /* border: 1px solid; */
+ 
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.ReviewCommentWriteDate{
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 13px;
+  background: linear-gradient(to left, rgb(254, 63, 53), rgb(249, 44, 7));
+  color: white;
+  border-radius: 10px ;
+  border: none;
+}
+.CommentReview{
+    word-wrap: break-word;
+}
+.ReviewInfoTitle{
+  display: flex;
+  justify-content: space-between;
+}
+.WriterHeadInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.WriterInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.Usernick{
+  
+  color: rgb(0, 0, 0);
+}
+.userInfoId{
+  color: rgb(154, 154, 154);
+}
+.createdDate{
+  color: blueviolet;
+}
+.ReviewText{
+  padding: 30px;
+  height: auto;
+
+  align-items: center;
+  /* overflow: hidden; */
+}
+.FixText{
+  width: 500px;
+  overflow: visible;
+	white-space: normal; /* 넘치면 줄바꿈 */
+	
+	word-wrap: break-word; /* 긴 단어를 분리해서 줄바꿈해라 */
+	
+	
+	
+	word-break: keep-all; 
+  /* overflow: hidden; */
+}
+
+.DeleteButton{
+  margin: 0 0 .3vw .3vw;
+}
+
+.DeleteButton path {
+  fill: black;
+}
+.CommentInputBox{
+  display: flex;
+  justify-content: center;
+  
+}
+.CommentInputbar{
+  width: 90%;
+  height: 36px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+.CommentButton{
+  margin-left: 20px;
+  background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));
+  color: white;
+  border-radius: 10px ;
+  border: none;
+}
+.BackToInfo{
+  margin-top: 30px;
+  background: linear-gradient(to left, rgb(117,53,254), rgb(144,93,254));
+  color: white;
+  font-size: 18px;
+  border-radius: 10px ;
+  border: none;
+  padding: 10px;
+}
+.BackButtonWrap{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.NoneCommentItems{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  text-align: center;
+  font-size: 20px;
+}

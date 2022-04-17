@@ -1,0 +1,34 @@
+.Loading {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 50%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  border: 5px solid black;
+  border-radius: 2rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.Loading-title {
+  position: relative;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  padding-top: 2.5%;
+}
+
+.Loading-img-on {
+  border-radius: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 90%;
+}
+
+.Loading-img-off {
+  display: none;
+}

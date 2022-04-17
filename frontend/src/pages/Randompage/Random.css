@@ -1,0 +1,55 @@
+.Random {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 5vh 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 1vh;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Random-result {
+  height: auto;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #BC8CF2;
+  padding: 0.6vw 1vw;
+  border: 2px solid #ffffff;
+  border-radius: 2vw;
+}
+
+.Random-result:hover {
+  background-color: #7535FE;
+}
+
+.Random-header {
+  height: 10vh;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Random-header-odi {
+  width: 10vh;
+  height: 10vh;
+}
+
+.Random-content {
+  display: flex;
+  position: relative;
+}
+
+.Random-change {
+  position: absolute;
+  width: 80vw;
+  height: 80vw;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 2rem;
+  background-color: grey;
+  z-index: 10;
+}

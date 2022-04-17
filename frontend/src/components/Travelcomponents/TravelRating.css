@@ -1,0 +1,20 @@
+.TravelRating {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: yellow;
+  font-size: 21px;
+  border-radius: 1rem;
+  padding: 0px 10px 7px 10px;
+}
+
+.TravelRating:hover {
+  cursor: pointer;
+}
+
+.fillgold{
+  color: gold;
+}
+.ungold{
+  color: rgb(144, 144, 144);
+}

@@ -1,0 +1,21 @@
+.Notfound {
+  position: relative;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Notfound-header {
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 10vh;
+}
+
+.Notfound-button {
+  text-decoration: none;
+  font-size: 30px;
+}
